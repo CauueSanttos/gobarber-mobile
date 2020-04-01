@@ -9,7 +9,7 @@ const Stack = createStackNavigator();
 
 export default function src() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator headerMode="none">
       <Stack.Screen name="SignIn" component={SignIn} />
       <Stack.Screen name="SignUp" component={SignUp} />
       <Stack.Screen name="Dashboard" component={Dashboard} />
